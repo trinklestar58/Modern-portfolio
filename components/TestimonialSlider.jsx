@@ -9,26 +9,19 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    image: "/client1.jpg",
+    name: "Jason Mazursky",
+    position: "Project Manager",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "The code you wrote is clean and well-structured, making it easy to maintain and extend in the future!",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/client2.jpg",
+    name: "YURI PETUSKO",
+    position: "CTO",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
-  },
-  {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
-  },
+      "Great job on completing the feature ahead of schedule! Keep up the excellent work!",
+  }
 ];
 
 const TestimonialSlider = () => {
@@ -54,6 +47,7 @@ const TestimonialSlider = () => {
                     width={100}
                     height={100}
                     alt={person.name}
+                    style={{ borderRadius: "50%" }}
                   />
                 </div>
 

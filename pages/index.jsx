@@ -32,10 +32,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Skilled in blockchain development, specializing in secure decentralized
+            applications. Hands on experience in designing and implementing
+            blockchain solutions, smart contracts, and decentralized systems. Familiar
+            with tools like Hardhat, Remix, and web3.js for blockchain development.
+            Dedicated to advancing blockchain technology through continuous learning
+            and exploration.
           </motion.p>
 
           {/* btn */}

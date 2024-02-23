@@ -2,19 +2,37 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import CountUp from "react-countup";
 import {
-  FaCss3,
   FaFigma,
-  FaHtml5,
   FaJs,
   FaReact,
   FaWordpress,
+  FaEthereum,
+  FaHardHat,
+  FaAws
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiAdobexd,
   SiFramer,
   SiNextdotjs,
+  SiTypescript,
+  SiPostgresql,
+  SiTailwindcss,
+  SiRedis,
+  SiMongodb,
+  SiApollographql,
+  SiGraphql,
+  SiWeb3Dotjs,
+  SiRust,
+  SiSolidity,
+  SiJira
 } from "react-icons/si";
+import {
+  TbCurrencySolana
+} from "react-icons/tb";
+import { 
+  GiCrossedChains 
+} from "react-icons/gi";
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
@@ -28,65 +46,54 @@ export const aboutData = [
       {
         title: "Web Development",
         icons: [
-          FaHtml5,
-          FaCss3,
+          SiTypescript,
           FaJs,
-          FaReact,
           SiNextdotjs,
-          SiFramer,
-          FaWordpress,
+          SiPostgresql,
+          SiTailwindcss,
+          SiRedis,
+          SiMongodb,
+          SiApollographql,
+          SiGraphql
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
-      },
-    ],
-  },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
+        title: "Blockchain Development",
+        icons: [
+          SiSolidity,
+          SiWeb3Dotjs,
+          FaEthereum,
+          TbCurrencySolana,
+          FaHardHat,
+          SiRust,
+          GiCrossedChains
+        ],
+      }
     ],
   },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Senior Blockchain Developer - DESO",
+        stage: "04/2021 - 07/2023",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
+        title: "Lead Smart Contract Developer - RMRK",
+        stage: "05/2019 - 03/2021",
+      }
     ],
   },
   {
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Certified Smart Contract Developer - 101 Blockchains",
+        stage: "2019",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Certified Web 3.0 Professional (CW3P) - Blockchain Council",
+        stage: "2020",
       },
     ],
   },
@@ -120,8 +127,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Revolutionary <span className="text-accent">technology</span> fuels groundbreaking innovations.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -129,9 +135,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+            Over the past 7 years, I've specialized as a blockchain full stack developer, gaining experience through remote roles with two companies and freelance projects. My focus is on pioneering blockchain solutions and reshaping digital landscapes with innovative technology.
           </motion.p>
 
           {/* counters */}
@@ -145,7 +149,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={7} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
@@ -155,7 +159,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
+                  <CountUp start={0} end={50} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients.
@@ -165,20 +169,10 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={30} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.
-                </div>
-              </div>
-
-              {/* awards */}
-              <div className="relative flex-1">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
                 </div>
               </div>
             </div>

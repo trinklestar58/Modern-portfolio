@@ -29,8 +29,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              I specialize in developing end-to-end solutions by combining full stack development expertise with blockchain technology to create secure and efficient decentralized applications
             </motion.p>
           </div>
 

@@ -13,49 +13,44 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "http://example.com",
+          title: "HeroSwap",
+          path: "/Heroswap.png",
+          link: "https://heroswap.com/",
         },
         {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
+          title: "Singular",
+          path: "/singular.png",
+          link: "https://singular.app/",
         },
         {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
+          title: "MarsNext",
+          path: "/marsnext.png",
+          link: "https://www.marsnext.io/",
         },
         {
-          title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
-        },
+          title: "Solport",
+          path: "/solport.png",
+          link: "https://solport.io/",
+        }
       ],
     },
     {
       images: [
         {
-          title: "title",
-          path: "/thumb4.jpg",
+          title: "1delta",
+          path: "/app.png",
+          link: "ttps://app.1delta.io/",
+        },
+        {
+          title: "madshooter",
+          path: "/madshooter.png",
           link: "http://example.com",
         },
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "http://example.com",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "http://example.com",
-        },
+          title: "RealEstate",
+          path: "/homes.png",
+          link: "https://www.point2homes.com/",
+        }
       ],
     },
   ],

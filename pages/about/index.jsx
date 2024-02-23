@@ -2,18 +2,11 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import CountUp from "react-countup";
 import {
-  FaFigma,
   FaJs,
-  FaReact,
-  FaWordpress,
   FaEthereum,
-  FaHardHat,
-  FaAws
+  FaHardHat
 } from "react-icons/fa";
 import {
-  SiAdobephotoshop,
-  SiAdobexd,
-  SiFramer,
   SiNextdotjs,
   SiTypescript,
   SiPostgresql,
@@ -28,7 +21,8 @@ import {
   SiJira
 } from "react-icons/si";
 import {
-  TbCurrencySolana
+  TbCurrencySolana,
+  TbBrandGolang
 } from "react-icons/tb";
 import { 
   GiCrossedChains 
@@ -44,6 +38,19 @@ export const aboutData = [
     title: "skills",
     info: [
       {
+        title: "Blockchain Development",
+        icons: [
+          SiSolidity,
+          SiWeb3Dotjs,
+          FaEthereum,
+          TbCurrencySolana,
+          FaHardHat,
+          SiRust,
+          TbBrandGolang,
+          GiCrossedChains
+        ],
+      },
+      {
         title: "Web Development",
         icons: [
           SiTypescript,
@@ -55,18 +62,6 @@ export const aboutData = [
           SiMongodb,
           SiApollographql,
           SiGraphql
-        ],
-      },
-      {
-        title: "Blockchain Development",
-        icons: [
-          SiSolidity,
-          SiWeb3Dotjs,
-          FaEthereum,
-          TbCurrencySolana,
-          FaHardHat,
-          SiRust,
-          GiCrossedChains
         ],
       }
     ],

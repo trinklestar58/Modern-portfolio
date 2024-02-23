@@ -17,8 +17,7 @@ import {
   SiGraphql,
   SiWeb3Dotjs,
   SiRust,
-  SiSolidity,
-  SiJira
+  SiSolidity
 } from "react-icons/si";
 import {
   TbCurrencySolana,
@@ -72,10 +71,12 @@ export const aboutData = [
       {
         title: "Senior Blockchain Developer - DESO",
         stage: "04/2021 - 07/2023",
+        overview: "As a blockchain developer, I specialized in utilizing a diverse tech stack that included Next.js, Tailwind CSS, Solidity, Hardhat, GraphQL, PostgreSQL, Web3.js, and Ethers.js for various blockchains such as Polygon, Solana, and Ethereum. My expertise was instrumental in contributing to both front-end and back-end development for blockchain projects. I collaborated with my team using Jira for seamless teamwork and leveraged GitHub for version control. One of the notable projects I contributed to is HeroSwap, a widely adopted platform in the blockchain ecosystem"
       },
       {
         title: "Lead Smart Contract Developer - RMRK",
         stage: "05/2019 - 03/2021",
+        overview: "As the lead smart contract developer, I specialized in using Solidity and Rust for various blockchains such as Polygon, Solana, and Ethereum. I worked with multi-chain environments, particularly focusing on the main project of the company, Singular NFT Marketplace, operating across multiple blockchains."
       }
     ],
   },
@@ -144,7 +145,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={7} duration={5} />
+                  <CountUp start={0} end={7} duration={1} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
@@ -164,7 +165,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={30} duration={5} />
+                  <CountUp start={0} end={30} duration={3} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.
@@ -199,24 +200,31 @@ const About = () => {
 
           <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
             {aboutData[index].info.map((item, itemI) => (
-              <div
+              <>
+                <div
                 key={itemI}
                 className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-center text-white/60"
-              >
-                {/* title */}
-                <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                <div className="hidden md:flex">-</div>
-                <div>{item.stage}</div>
+                >
+                  {/* title */}
+                  <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                  <div className="hidden md:flex">-</div>
+                  <div>{item.stage}</div>
 
-                <div className="flex gap-x-4">
-                  {/* icons */}
-                  {item.icons?.map((Icon, iconI) => (
-                    <div key={iconI} className="text-2xl text-white">
-                      <Icon />
-                    </div>
-                  ))}
+                  <div className="flex gap-x-4">
+                    {/* icons */}
+                    {item.icons?.map((Icon, iconI) => (
+                      <div key={iconI} className="text-2xl text-white">
+                        <Icon />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+                <div style={{width: "100%"}}>
+                  {
+                    item.overview ? item.overview : ""
+                  }
+                </div>
+              </>
             ))}
           </div>
         </motion.div>

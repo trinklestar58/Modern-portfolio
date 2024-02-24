@@ -50,6 +50,11 @@ const workSlides = {
           title: "RealEstate",
           path: "/homes.png",
           link: "https://www.point2homes.com/",
+        },
+        {
+          title: "RealEstate",
+          path: "/realtor.png",
+          link: "https://www.realtor.com/",
         }
       ],
     },

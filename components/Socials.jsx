@@ -32,7 +32,7 @@ const Socials = () => {
           key={i}
           title={social.name}
           href={social.link}
-          target="_blank"
+          target={social.link === "#" ? "" : "_blank"}
           rel="noreferrer noopener"
           className={`${
             social.name === "Github"

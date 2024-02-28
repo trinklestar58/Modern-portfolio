@@ -9,7 +9,7 @@ import {
 export const socialData = [
   {
     name: "Gmail",
-    link: "jackryanmoes92011@gmail.com",
+    link: "https://gmail.com/jackryanmoes92011@gmail.com",
     Icon: RiMailStarLine,
   },
   {

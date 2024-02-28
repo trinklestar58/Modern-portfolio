@@ -2,18 +2,24 @@ import Link from "next/link";
 
 import {
   RiGithubLine,
-  RiLinkedinLine
+  RiLinkedinLine,
+  RiMailStarLine
 } from "react-icons/ri";
 
 export const socialData = [
   {
+    name: "Gmail",
+    link: "jackryanmoes92011@gmail.com",
+    Icon: RiMailStarLine,
+  },
+  {
     name: "Linkedin",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/jackmoes8980241bbb",
     Icon: RiLinkedinLine,
   },
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/innotech0926",
     Icon: RiGithubLine,
   },
 ];

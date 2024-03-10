@@ -70,7 +70,7 @@ export const aboutData = [
     info: [
       {
         title: "Senior Blockchain Developer - DESO",
-        stage: "04/2021 - 07/2023",
+        stage: "04/2021 - 01/2024",
         overview: "As a blockchain developer, I specialized in utilizing a diverse tech stack that included Next.js, Tailwind CSS, Solidity, Hardhat, GraphQL, PostgreSQL, Web3.js, and Ethers.js for various blockchains such as Polygon, Solana, and Ethereum. My expertise was instrumental in contributing to both front-end and back-end development for blockchain projects. I collaborated with my team using Jira for seamless teamwork and leveraged GitHub for version control. One of the notable projects I contributed to is HeroSwap, a widely adopted platform in the blockchain ecosystem"
       },
       {

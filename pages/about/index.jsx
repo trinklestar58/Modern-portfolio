@@ -69,14 +69,14 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Senior Blockchain Developer - DESO",
+        title: "Senior Blockchain Developer - RMRK",
         stage: "04/2021 - 01/2024",
         overview: "As a blockchain developer, I specialized in utilizing a diverse tech stack that included Next.js, Tailwind CSS, Solidity, Hardhat, GraphQL, PostgreSQL, Web3.js, and Ethers.js for various blockchains such as Polygon, Solana, and Ethereum. My expertise was instrumental in contributing to both front-end and back-end development for blockchain projects. I collaborated with my team using Jira for seamless teamwork and leveraged GitHub for version control. One of the notable projects I contributed to is HeroSwap, a widely adopted platform in the blockchain ecosystem"
       },
       {
-        title: "Lead Smart Contract Developer - RMRK",
+        title: "Full Stack Developer - DESO",
         stage: "05/2019 - 03/2021",
-        overview: "As the lead smart contract developer, I specialized in using Solidity and Rust for various blockchains such as Polygon, Solana, and Ethereum. I worked with multi-chain environments, particularly focusing on the main project of the company, Singular NFT Marketplace, operating across multiple blockchains."
+        overview: "As the Full Stack developer, I specialized in using Solidity and Rust for various blockchains such as Polygon, Solana, and Ethereum. I worked with multi-chain environments, particularly focusing on the main project of the company, Singular NFT Marketplace, operating across multiple blockchains."
       }
     ],
   },

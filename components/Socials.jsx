@@ -14,7 +14,7 @@ export const socialData = [
   },
   {
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/jackmoes8980241bbb",
+    link: "https://www.linkedin.com/in/jack-moes-b80a322b5",
     Icon: RiLinkedinLine,
   },
   {
